@@ -78,7 +78,6 @@ while(nomi){
     soni=prompt(`Necha kg ${nomi} kerak`)
   }
   else {
-    console.log(products);
     alert(`Kechirasiz bizda bunaqa mahsulot yo'q` )
   }
   if (soni>0){
@@ -99,3 +98,5 @@ while(nomi){
   }
 } 
 }
+
+console.log(products);
